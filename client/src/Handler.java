@@ -28,7 +28,10 @@ public class Handler{
 	private int port;
 	private Dimension screensize = java.awt.Toolkit.getDefaultToolkit().getScreenSize();
 	
-	
+	/*
+	Contructor
+	arguments: ip, port
+	*/
 	public Handler(String host, int port){
 		serverIP = host;
 		this.port=port;
